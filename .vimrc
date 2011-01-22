@@ -26,6 +26,8 @@ set ruler
 set undofile
 set textwidth=79
 set colorcolumn=85
+set backspace=indent,eol,start
+syntax on
 
 color ir_black
 
@@ -37,3 +39,4 @@ let mapleader = ","
 
 nnoremap <leader>nt :NERDTree<cr>
 
+let g:pydiction_location='~/.vim/bundle/pydiction/after/ftplugin/complete-dict'

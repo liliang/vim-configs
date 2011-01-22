@@ -1,22 +1,39 @@
+filetype off
 call pathogen#runtime_append_all_bundles()
+filetype plugin indent on
 
 set nocompatible
 set tabstop=4
+set softtabstop=4
 set shiftwidth=4
 set expandtab
 set list
-set number
+set relativenumber
+set ignorecase
+set smartcase
+set gdefault
 set incsearch
 set hlsearch
+set showmatch
 set smartindent
+set encoding=utf-8
+set showcmd
+set hidden
+set visualbell
+set cursorline
+set ttyfast
+set ruler
+set undofile
+set textwidth=79
+set colorcolumn=85
 
 color ir_black
 
-map <C-s> :w<cr>
-map <C-c> "+y<cr>
-map <C-v> "+gP<cr>
+nnoremap ; :
+inoremap <C-s> <ESC>:w<cr>
+nnoremap <C-s> :w<cr>
 
 let mapleader = ","
 
-map <leader>nt :NERDTree<cr>
+nnoremap <leader>nt :NERDTree<cr>
 

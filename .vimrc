@@ -40,3 +40,5 @@ let mapleader = ","
 nnoremap <leader>nt :NERDTree<cr>
 
 let g:pydiction_location='~/.vim/bundle/pydiction/after/ftplugin/complete-dict'
+
+autocmd FileType python set omnifunc=pythoncomplete#Complete

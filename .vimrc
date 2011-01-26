@@ -29,7 +29,7 @@ set colorcolumn=85
 set backspace=indent,eol,start
 syntax on
 
-color ir_black
+color molokai
 
 nnoremap ; :
 inoremap <C-s> <ESC>:w<cr>
@@ -38,7 +38,11 @@ nnoremap <C-s> :w<cr>
 let mapleader = ","
 
 nnoremap <leader>nt :NERDTree<cr>
+nnoremap <leader>b :MiniBufExplorer<cr>
 
+let g:miniBufExplMapWindowNavVim=1
+let g:miniBufExplMapWindowNavArrows=1
+let g:miniBufExplMapCTabSwitchBufs=1
 let g:pydiction_location='~/.vim/bundle/pydiction/after/ftplugin/complete-dict'
 
 autocmd FileType python set omnifunc=pythoncomplete#Complete

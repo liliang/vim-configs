@@ -24,8 +24,7 @@ set cursorline
 set ttyfast
 set ruler
 set undofile
-set textwidth=79
-set colorcolumn=85
+set colorcolumn=120
 set backspace=indent,eol,start
 syntax on
 

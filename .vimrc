@@ -27,6 +27,7 @@ set undofile
 set colorcolumn=120
 set backspace=indent,eol,start
 syntax on
+set guifont=Menlo\ Regular:h14
 
 color molokai
 
